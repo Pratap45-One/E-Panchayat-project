@@ -85,8 +85,8 @@ docker-compose up -d
 ## 📸 Screenshots
 <img width="1827" height="959" alt="Screenshot 2025-10-20 003756" src="https://github.com/user-attachments/assets/5a8dfc1b-4541-4e74-a055-8e9330d9fe98" />
 
-<img width="1684" height="868" alt="Screenshot 2025-10-20 003944" src="https://github.com/user-attachments/assets/e91439db-9ec9-4126-9140-848e7662d500" />
 
+<img width="1221" height="956" alt="Screenshot 2025-10-20 004027" src="https://github.com/user-attachments/assets/9a6af295-75d6-44e0-86c3-e1733dbc4356" />
 
 ---
 
@@ -111,4 +111,5 @@ MIT License
 
 - GitHub Repository: [E-Panchayat Project](https://github.com/Pratap45-One/E-Panchayat-project-with-CI-CD-Pipeline-with-GitHub-Actions-Docker-)  
 - Docker Hub Image: [pml45/epanchayat](https://hub.docker.com/r/pml45/epanchayat)
+
 
