@@ -1,7 +1,5 @@
 # E-Panchayat Project with CI/CD Pipeline
 
-# E-Panchayat Project with CI/CD Pipeline
-
 ![E-Panchayat](https://img.shields.io/badge/Project-E--Panchayat-blue)
 
 ## About the Project
@@ -147,6 +145,7 @@ MIT License
 
 - GitHub Repository: [E-Panchayat Project](https://github.com/Pratap45-One/E-Panchayat-project-with-CI-CD-Pipeline-with-GitHub-Actions-Docker-)  
 - Docker Hub Image: [pml45/epanchayat](https://hub.docker.com/r/pml45/epanchayat)
+
 
 
 
