@@ -1,79 +1,113 @@
 # E-Panchayat Project with CI/CD Pipeline
 
-This repository contains the **E-Panchayat** project with a full **CI/CD pipeline** using **GitHub Actions** and **Docker**. The pipeline builds a Docker image, runs tests, and deploys the app locally or on any VM.
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Pratap45-One/E-Panchayat-project-with-CI-CD-Pipeline-with-GitHub-Actions-Docker-/ci-cd.yml?branch=main&style=flat-square)](https://github.com/Pratap45-One/E-Panchayat-project-with-CI-CD-Pipeline-with-GitHub-Actions-Docker-/actions/workflows/ci-cd.yml)
+[![Docker Pulls](https://img.shields.io/docker/pulls/pml45/epanchayat?style=flat-square)](https://hub.docker.com/r/pml45/epanchayat)
 
-## Features
+> A Flask-based E-Panchayat project with a full CI/CD pipeline using GitHub Actions and Docker. Build, test, and deploy locally or on any VM effortlessly.
 
-- Flask-based web application  
-- MySQL database support  
-- Dockerized for easy deployment  
-- Automated CI/CD with GitHub Actions  
+---
+
+## 🚀 Features
+
+- RESTful Flask API  
+- MySQL database integration  
+- Dockerized for consistent deployment  
+- CI/CD automation with GitHub Actions  
 - Local deployment using Docker or Minikube  
+- Easy-to-use development and production setup
 
-## Tech Stack
+---
+
+## 🛠 Tech Stack
 
 - **Backend:** Python 3.9, Flask, Flask-RESTful  
 - **Database:** MySQL  
-- **Containerization:** Docker  
+- **Containerization:** Docker, Docker Compose  
 - **CI/CD:** GitHub Actions  
-- **Deployment:** Docker (local or VM), optional Minikube/Kubernetes  
+- **Deployment:** Docker (local or VM), optional Minikube
 
-## Getting Started
+---
+
+## 📥 Getting Started
 
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/Pratap45-One/E-Panchayat-project-with-CI-CD-Pipeline-with-GitHub-Actions-Docker-.git
 cd E-Panchayat-project-with-CI-CD-Pipeline-with-GitHub-Actions-Docker-
-2. Build Docker Image
-bash
-Copy code
+```
+
+### 2. Build Docker Image
+```bash
 docker build -t pml45/epanchayat:latest .
-3. Run Docker Container
-bash
-Copy code
+```
+
+### 3. Run Docker Container
+```bash
 docker run -p 5000:5000 pml45/epanchayat:latest
-Access the app at: http://localhost:5000
+```
 
-GitHub Actions CI/CD Pipeline
-The workflow is located at .github/workflows/ci-cd.yml and performs:
+Visit the app: [http://localhost:5000](http://localhost:5000)
 
-Checkout source code
+---
 
-Set up Python environment
+## ⚙️ GitHub Actions CI/CD Pipeline
 
-Install dependencies (requirements.txt)
+The workflow is defined in `.github/workflows/ci-cd.yml` and includes:
 
-Run tests
+1. Checkout source code  
+2. Set up Python environment  
+3. Install dependencies from `requirements.txt`  
+4. Run unit tests  
+5. Build Docker image  
+6. Push Docker image to Docker Hub (optional)
 
-Build Docker image
+---
 
-Push Docker image to Docker Hub (optional)
+## 🐳 Docker Usage
 
-Local Deployment
-Docker CLI:
-
-bash
-Copy code
-docker run -p 5000:5000 pml45/epanchayat:latest
-Docker Compose (if provided):
-
-bash
-Copy code
-docker-compose up -d
-Screenshots
-Add screenshots in a folder called screenshots/ and link them here.
-
-Docker Hub Image
-Your Docker image: pml45/epanchayat:latest
-Pull using:
-
-bash
-Copy code
+### Pull Image from Docker Hub
+```bash
 docker pull pml45/epanchayat:latest
-Notes
-Running in development mode.
+```
 
-For production, use a production WSGI server like Gunicorn or uWSGI.
+### Run Locally
+```bash
+docker run -p 5000:5000 pml45/epanchayat:latest
+```
 
-License
+### Docker Compose (if applicable)
+```bash
+docker-compose up -d
+```
+
+---
+
+## 📸 Screenshots
+
+Add screenshots in a folder named `screenshots/` and reference them here:
+
+![App Screenshot](screenshots/app_screenshot.png)
+
+---
+
+## ⚠️ Notes
+
+- Development server is used by default.  
+- For production, use a WSGI server like **Gunicorn** or **uWSGI**.  
+- Update dependencies using:  
+```bash
+pip install --upgrade -r requirements.txt
+```
+
+---
+
+## 📄 License
+
 MIT License
+
+---
+
+## 🔗 Links
+
+- GitHub Repository: [E-Panchayat Project](https://github.com/Pratap45-One/E-Panchayat-project-with-CI-CD-Pipeline-with-GitHub-Actions-Docker-)  
+- Docker Hub Image: [pml45/epanchayat](https://hub.docker.com/r/pml45/epanchayat)
