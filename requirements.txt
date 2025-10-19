@@ -1,0 +1,12 @@
+Flask==2.3.3
+Flask-RESTful==1.0.0
+gunicorn==22.1.0
+requests==2.31.0
+Werkzeug==2.3.7
+Jinja2==3.1.2
+itsdangerous==2.1.2
+python-dotenv==1.0.0
+
+Flask-Cors==3.1.1
+SQLAlchemy==2.0.20
+pymysql==1.1.1
