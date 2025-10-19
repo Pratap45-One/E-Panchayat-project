@@ -1,11 +1,47 @@
 # E-Panchayat Project with CI/CD Pipeline
 
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Pratap45-One/E-Panchayat-project-with-CI-CD-Pipeline-with-GitHub-Actions-Docker-/ci-cd.yml?branch=main&style=flat-square)](https://github.com/Pratap45-One/E-Panchayat-project-with-CI-CD-Pipeline-with-GitHub-Actions-Docker-/actions/workflows/ci-cd.yml)
-[![Docker Pulls](https://img.shields.io/docker/pulls/pml45/epanchayat?style=flat-square)](https://hub.docker.com/r/pml45/epanchayat)
+# E-Panchayat Project with CI/CD Pipeline
 
-> A Flask-based E-Panchayat project with a full CI/CD pipeline using GitHub Actions and Docker. Build, test, and deploy locally or on any VM effortlessly.
+![E-Panchayat](https://img.shields.io/badge/Project-E--Panchayat-blue)
 
----
+## About the Project
+
+**E-Panchayat** is a digital platform designed to streamline communication and service management between Gram Panchayats and the public. This project allows citizens to submit issues, check application statuses, and access important information online. The platform is built using **Python Flask** and **MySQL**, and is containerized with **Docker** for easy deployment. The project includes a fully automated **CI/CD pipeline** using **GitHub Actions**, ensuring that updates are tested, built, and deployed efficiently.
+
+## Features
+
+- Submit complaints/issues to Gram Panchayats
+- Track application status
+- Access general information about services
+- Automated CI/CD pipeline with GitHub Actions
+- Dockerized for local and cloud deployment
+
+## CI/CD Pipeline
+
+The pipeline automatically:
+
+1. Checks out the code from GitHub
+2. Builds a Docker image
+3. Runs tests to ensure code quality
+4. Pushes the Docker image to Docker Hub
+5. Deploys the application on a local VM or Minikube
+
+## Tools & Technologies
+
+- Python Flask
+- MySQL
+- Docker & Docker Compose
+- GitHub Actions
+- Minikube or local VM for deployment
+
+## Getting Started
+
+### Prerequisites
+
+- Install [Docker](https://www.docker.com/get-started)
+- Install [Git](https://git-scm.com/)
+- Optional: Minikube or any local VM
+
 
 ## 🚀 Features
 
@@ -111,5 +147,6 @@ MIT License
 
 - GitHub Repository: [E-Panchayat Project](https://github.com/Pratap45-One/E-Panchayat-project-with-CI-CD-Pipeline-with-GitHub-Actions-Docker-)  
 - Docker Hub Image: [pml45/epanchayat](https://hub.docker.com/r/pml45/epanchayat)
+
 
 
