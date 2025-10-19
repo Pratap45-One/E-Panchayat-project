@@ -1,13 +1,11 @@
 Flask==2.3.3
 Flask-RESTful==0.3.10
-
 gunicorn==23.0.0
 requests==2.31.0
 Werkzeug==2.3.7
 Jinja2==3.1.2
 itsdangerous==2.1.2
 python-dotenv==1.0.0
-
-Flask-Cors==3.1.1
+Flask-Cors==6.0.1
 SQLAlchemy==2.0.20
 pymysql==1.1.1
